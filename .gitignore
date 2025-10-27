@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.log
+tmp/
+temp/
+
+# Test files
+test.html
+ocr_extract.py
+extract_docx_content.py
+update_links.py
+update_nav_levels.py
+update_all_nav_levels.py
+update_accordions.py
+google-sites-prep.py
+webflow-prep.py
+webflow-version/
+
+# Source files (keep the generated HTML, not the docx)
+Live-Action/
+URL_PARAMETERS.md
+
