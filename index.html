@@ -5,6 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Monstera Group Live-Action SOP</title>
     <link rel="stylesheet" href="styles.css" />
+    <script>
+      // Check authentication on page load
+      if (!sessionStorage.getItem('authenticated')) {
+        window.location.href = 'password-gate.html';
+      }
+    </script>
+    <script src="password-config.js"></script>
   </head>
   <body>
     <div class="container">

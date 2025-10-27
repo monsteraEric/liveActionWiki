@@ -41,3 +41,8 @@ webflow-version/
 Live-Action/
 URL_PARAMETERS.md
 
+# Password configuration - keep local, don't commit
+password-config.js
+password.txt
+
+
